@@ -1,0 +1,35 @@
+menu{
+    width: 100%;
+    padding: 0px;
+}
+table{
+    
+    border-color:none;
+    background-color: gainsboro;
+    width: 80%;
+    position:relative;
+    right:10%;
+    left:10%;
+}
+td{
+    padding: 4px;
+    text-align: center;
+    margin:1px;
+}
+td:hover{
+    background-color: darkgrey;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+div table{
+   width:40%;
+    right:30%;
+    left:30%;
+    background-color:beige;
+    margin-top: 40px;
+}

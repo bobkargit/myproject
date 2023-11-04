@@ -1,0 +1,110 @@
+h1 {
+    display: block;
+    font-size:30px;
+    margin-before: 0.67em;
+    margin-start: 0px;
+    margin-end: 0px;
+    font-weight: bold;
+    color:red
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-before: 0.83em;
+    margin-after: 0.83em;
+    margin-start: 0px;
+    margin-end: 0px;
+    font-weight: bold;
+    color:green
+}
+p {
+    display: block;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0px;
+    margin-end: 0px;
+}
+li {
+    display: list-item;
+    text-align: match-parent;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: green;
+    background-color:aquamarine
+}
+
+th {
+    font-weight:bold;
+    font-family:serif;
+    text-align: left;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+/* Question 4) */
+summary::-webkit-details-marker {  
+    display:none;    
+}
+/*
+summary:hover {  
+    display: block
+} */
+summary{
+    background-color: mediumseagreen;
+    padding: 5px;
+    border:1px solid green;
+    color:white;
+    font-family: sans-serif;
+    border-radius: 10px 0px 10px 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+summary:before{
+    content: "+";
+    font-size:1.5em;
+    color:black;
+}
+details[open] summary:before{
+    content: "-";
+    font-size:1.5em;
+     color:black;
+}
+p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+details{
+    width: 50%;
+    background-color: palegreen;
+    margin: 0px;
+}
+
+details fieldset {
+    border: none;
+}	
+/*Mon style*/
+header{
+    height: 100px;
+    background-color:azure
+}
+
+.logo1 img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.logo2 img{
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+footer{
+    height: 100px;
+    background-color:azure;
+    margin-bottom: 0px;
+    padding: 40px;
+}

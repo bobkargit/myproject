@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Exerccie 2 /1</title>
+        <meta charset="utf-8" />
+        <link href="ex2.css" rel="stylesheet" type="text/css">
+        <script language="javascript" src="script.js"></script>
+        <style>
+           /* img{
+                width:110px;
+                height: 110px;
+                position:relative
+            }*/
+            table{   
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo1">
+                <img src="t1.png">
+            </div>
+            <center>
+                <p>Université Mohammed Premier<br>Ecole Nationale des Sciences Appliquées<br>Al Hoceima</p>
+            </center>
+            <div class="logo2">
+                 <img src="t1.png">
+            </div>
+        </header>
+        <section>
+        <h1>Le titre</h1>
+        <h2>1 Le sous titre</h2>
+        <p>paragraphes 1</p>
+        <p>paragraphes 2</p>
+        <h2>2 Le sous titre</h2>
+        <p>paragraphes 1</p>
+        <p>paragraphes 2</p>
+        <ul>
+            <li>element 1</li>
+            <li>element 2</li>
+            <ol>
+                <li>element</li>
+                <li>element</li>
+            </ol>
+            <li>element 1</li>
+        </ul>
+        <table border="1">
+            <thead>
+                <th>*</th>
+                <th>nom</th>
+                <th>prenom</th>
+            </thead>
+            <tr>
+                <td>1</td>
+                <td>Reda</td>
+                <td>Kh</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Reda</td>
+                <td>Kh</td>
+            </tr>
+        </table>
+        <p>4)------------------------------------------------------------------------</p>
+        <details>
+            <summary> Plus de details</summary>
+            <p> le résume............</p>
+        </details>
+        <form name="MyForm">
+            <details>
+                <summary> Options possibles</summary>
+                <fieldset>
+                    <legend>Choisissez votre couleur :</legend>
+                    <p>
+                        <input type="radio" id="d1" name="couleurs" value="#9e9e9e"><label for="d1">Gris</label>
+                        <input type="radio" id="d2" name="couleurs" value="#ff0000"><label for="d2">Rouge</label>
+                        <input type="radio" id="d3" name="couleurs" value="#008000"><label for="d3">Vert</label>
+                        <input type="radio" id="d4" name="couleurs" value="#00bcd4"><label for="d4">Bleu</label>
+                        <input type="button" value="Changer la Couleur" onclick="javascript:color(document.MyForm.couleurs.value);"/>
+                    </p>
+                </fieldset>
+            </details>
+        </form>
+        </section>        
+        <footer>
+            <center>All rights reserved © khouna 2017</center>
+        </footer>
+    </body>
+</html>
